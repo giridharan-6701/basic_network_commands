@@ -48,6 +48,13 @@ IV - ping -f www.twitter.com This Command also serves the same purpose as PING I
 Tracert Command is used to display the routing path that the packet transmitted from source to destination, How much devices it traversed during transmission, Number of Hops it has taken all the details can be shown.
 ![image](https://github.com/giridharan-6701/basic_network_commands/assets/94190302/cbc5a833-5a1d-44b9-aa91-0e698c7d3427)
 
+4 - NSLOOKUP
+NSLOOKUP Simply means retriving Domain name information regarding the specified dns address from the DNS Server. We can also perform reverse dns search by inputting the IP address of the domain and display the details about its Domain Name.
+![image](https://github.com/giridharan-6701/basic_network_commands/assets/94190302/b96f39f4-098d-41be-b8dc-e9c64108c712)
+
+NSLOOKUP Command can be used with the Following Arguments:- 
+I - nslookup -type=soa www.twitter.com This Command retrieve information regarding the Specified Domain Name, Additionally we are providing the flag -type=soa which provides authoritative response like displaying primary server name and other details of the specified domain.
+![image](https://github.com/giridharan-6701/basic_network_commands/assets/94190302/e766a9c1-9967-4cd9-a9c9-078f10f1b1e7)
 
 
 
